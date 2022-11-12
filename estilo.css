@@ -1,0 +1,17 @@
+#Funcionarios{
+    border-collapse:collapse;
+    width: 100%;
+}
+#Funcionarios th, #Funcionarios td{
+    border: 1px solid #ddd;
+    text-align:left;
+    padding: 15px;
+}
+
+#Funcionarios tr:nth-child(even){background-color: #f2f2f2;}
+
+#Funcionarios tr:hover{background-color: #ddd;}
+#Funcionarios th{
+    background-color: #4caf50;
+    color: white;
+}
